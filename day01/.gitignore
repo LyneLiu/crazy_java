@@ -1,0 +1,6 @@
+# ignore the IDEA setting files #
+/.idea/*
+*.iml
+
+# ignore the class files #
+/out/*
