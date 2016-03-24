@@ -12,7 +12,7 @@ public class ArraysTest2 {
 
         int[] arr1 = new int[]{3,-4,25,16,30,18};
         /*数组并发排序*/
-        Arrays.parallelSort(arr1);
+       /* Arrays.parallelSort(arr1);
         System.out.println(Arrays.toString(arr1));
 
         int[] arr2 = new int[]{3,-4,25,16,30,18};
@@ -23,14 +23,14 @@ public class ArraysTest2 {
         });
         System.out.println(Arrays.toString(arr2));
 
-        /*parallelSetAll类似于Erlang的map功能*/
+        *//*parallelSetAll类似于Erlang的map功能*//*
         int[] arr3 = new int[5];
         Arrays.parallelSetAll(arr2,new IntUnaryOperator(){
             public int applayAsInt(int operand){
                 return operand * 5;
             }
         });
-        System.out.println(Arrays.toString(arr3));
+        System.out.println(Arrays.toString(arr3));*/
 
 
     }
