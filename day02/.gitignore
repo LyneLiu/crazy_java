@@ -14,10 +14,8 @@
 hs_err_pid*
 
 # ignore the IDEA setting files #
-/.idea/*
+.idea/
 *.iml
 
 # ignore the class files #
-/out/*
-
-*.class
+out/

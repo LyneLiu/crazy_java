@@ -1,8 +1,8 @@
 # ignore the IDEA setting files #
-/.idea/*
+.idea/
 *.iml
 
 # ignore the class files #
-/out/*
+out/
 
 *.class
